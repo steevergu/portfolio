@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tous les projets — Manon Mikolajczak</title>
+  <meta name="description" content="Tous les projets de Manon Mikolajczak : événementiel, scénographie, communication, création éditoriale et expériences de terrain.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./projets-gallery.css">
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Retour au portfolio">
+        <span class="brand-mark">M</span>
+        <span class="brand-text">Manon</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="./index.html#profil">Profil</a>
+        <a href="./projets.html" class="nav-current">Projets</a>
+        <a href="./index.html#experiences">Expériences</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ── Hero ───────────────────────────── -->
+      <section class="gallery-hero reveal">
+        <div class="gallery-hero-text">
+          <p class="section-label">Portfolio complet</p>
+          <h1>Tous les <em>projets.</em></h1>
+          <p>
+            9 projets. Événementiel, scénographie, communication,
+            création éditoriale — chaque réalisation raconte une méthode
+            et un engagement de terrain.
+          </p>
+        </div>
+        <div class="gallery-hero-count">
+          <span class="gallery-count-num">9</span>
+          <span class="gallery-count-label">projets</span>
+        </div>
+      </section>
+
+      <!-- ── Filtre catégories ───────────────── -->
+      <div class="gallery-filters reveal">
+        <button class="gallery-filter active" data-filter="all">Tous</button>
+        <button class="gallery-filter" data-filter="lab">LAB ISEFAC</button>
+        <button class="gallery-filter" data-filter="academique">Académique</button>
+        <button class="gallery-filter" data-filter="experience">Expériences</button>
+      </div>
+
+      <!-- ── Masonry gallery ─────────────────── -->
+      <div class="gallery-masonry">
+
+        <!-- Cartes sur Tables — PHOTO -->
+        <a href="./projet-cartes-sur-tables.html"
+           class="gallery-card"
+           data-category="lab">
+          <div class="gallery-card-img">
+            <img src="./img/cartes-sur-tables/DSC08745.jpeg"
+                 alt="Cartes sur Tables — soirée casino ISEFAC"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">LAB ISEFAC</span>
+            <h3>Cartes sur Tables</h3>
+            <p>~190 participants · Thème Casino · Chargée de projet</p>
+          </div>
+        </a>
+
+        <!-- Exposition Photo — PHOTO -->
+        <a href="./projet-exposition-photo.html"
+           class="gallery-card"
+           data-category="academique">
+          <div class="gallery-card-img">
+            <img src="./img/exposition-photo/miroirzoe.jpg"
+                 alt="Exposition Photo — projet artistique ISEFAC"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">Académique · 3 prix ✦</span>
+            <h3>Exposition Photo</h3>
+            <p>Prix public · Meilleure vidéo · Meilleur éclairage</p>
+          </div>
+        </a>
+
+        <!-- Le Carré Gourmand — PHOTO -->
+        <a href="./projet-le-carre-gourmand.html"
+           class="gallery-card"
+           data-category="academique">
+          <div class="gallery-card-img">
+            <img src="./img/le-carre-gourmand/DSC00316.jpeg"
+                 alt="Le Carré Gourmand — festival culinaire"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">Finale UNIMEV</span>
+            <h3>Le Carré Gourmand</h3>
+            <p>Festival culinaire immersif · 4 univers thématiques</p>
+          </div>
+        </a>
+
+        <!-- Giving Tuesday — PHOTO -->
+        <a href="./projet-giving-tuesday.html"
+           class="gallery-card"
+           data-category="lab">
+          <div class="gallery-card-img">
+            <img src="./img/giving-tuesday/giving.jpeg"
+                 alt="Giving Tuesday — événement caritatif Pixar"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">LAB ISEFAC</span>
+            <h3>Giving Tuesday</h3>
+            <p>3 jours · Thème Pixar · Événement caritatif</p>
+          </div>
+        </a>
+
+        <!-- LVMH — PHOTO -->
+        <a href="./projet-lvmh.html"
+           class="gallery-card"
+           data-category="lab">
+          <div class="gallery-card-img">
+            <img src="./img/lvmh/DSC02951.jpeg"
+                 alt="LVMH You & Me — ambassadrice"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">LAB ISEFAC</span>
+            <h3>LVMH — You & Me</h3>
+            <p>Ambassadrice · Tournée nationale</p>
+          </div>
+        </a>
+
+        <!-- Parrainight — PHOTO -->
+        <a href="./projet-parrainight.html"
+           class="gallery-card"
+           data-category="lab">
+          <div class="gallery-card-img">
+            <img src="./img/parrainight/parrainight.jpg"
+                 alt="Parrainight — Día de los Muertos"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">LAB ISEFAC</span>
+            <h3>Parrainight</h3>
+            <p>Édition 2026 · Día de los Muertos · Intégration</p>
+          </div>
+        </a>
+
+        <!-- Spotlight Festival — PHOTO -->
+        <a href="./projet-spotlight-festival.html"
+           class="gallery-card"
+           data-category="experience">
+          <div class="gallery-card-img">
+            <img src="./img/spotlight-festival/miniature.jpg"
+                 alt="Spotlight Festival — vidéo promotionnelle"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">Expérience · Challenge remporté ✦</span>
+            <h3>Spotlight Festival</h3>
+            <p>Vidéo · 15 ans du festival · Théâtre Sébastopol</p>
+          </div>
+        </a>
+
+        <!-- La Sauvegarde du Nord — PHOTO -->
+        <a href="./projet-sauvegarde-du-nord.html"
+           class="gallery-card"
+           data-category="experience">
+          <div class="gallery-card-img">
+            <img src="./img/la-sauvegarde-du-nord/sauvegarde.jpg"
+                 alt="La Sauvegarde du Nord — stage mécénat"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">Stage mécénat</span>
+            <h3>La Sauvegarde du Nord</h3>
+            <p>Service mécénat · La Nuit de la Sauvegarde</p>
+          </div>
+        </a>
+
+        <!-- Magazine & Pop-up — PHOTO -->
+        <a href="./projet-magazine-popup.html"
+           class="gallery-card"
+           data-category="academique">
+          <div class="gallery-card-img">
+            <img src="./img/magazine/popup4.jpg"
+                 alt="Magazine & Pop-up Store"
+                 loading="lazy">
+          </div>
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-cat">Académique · 0 € de budget</span>
+            <h3>Magazine & Pop-up Store</h3>
+            <p>Éditorial · Pop-up · Quiz solidaire</p>
+          </div>
+        </a>
+
+      </div><!-- /gallery-masonry -->
+
+      <!-- ── Footer nav ───────────────────────── -->
+      <div class="gallery-back reveal">
+        <a href="./index.html" class="btn btn-primary">← Retour au portfolio</a>
+        <a href="./index.html#contact" class="btn-ghost-light">Me contacter</a>
+      </div>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Portfolio Manon Mikolajczak</p>
+      <p>Version web adaptée depuis le PDF</p>
+    </footer>
+
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    // Filtre catégories — affiche/masque par display
+    const filters = document.querySelectorAll('.gallery-filter');
+    const cards   = document.querySelectorAll('.gallery-card');
+
+    filters.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filters.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        cards.forEach(card => {
+          const show = f === 'all' || card.dataset.category === f;
+          card.style.display = show ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

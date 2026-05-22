@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manon Mikolajczak - Portfolio événementiel</title>
+  <meta
+    name="description"
+    content="Portfolio événementiel de Manon Mikolajczak : coordination, scénographie, communication et expériences de terrain. Recherche d'alternance pour septembre 2026."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Retour en haut de page">
+        <span class="brand-mark">M</span>
+        <span class="brand-text">Manon</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Ouvrir le menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="#profil">Profil</a>
+        <a href="./projets.html">Projets</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#benevola">Bénévolat</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Recherche d'alternance — Septembre 2026</p>
+          <h1 class="hero-title">
+            Je ne crée pas
+            des <em>événements.</em>
+            Je crée des moments
+            <span>qui restent.</span>
+          </h1>
+          <p class="hero-text">
+            Étudiante en 2e année d'événementiel à l'ISEFAC Lille, je recherche
+            une alternance à partir de septembre 2026. Ce qui m'anime ? Imaginer,
+            organiser et surtout faire vivre des expériences. J'aime les projets
+            où chaque détail compte, où l'émotion prend le dessus, et où rien
+            n'est laissé au hasard.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projets">Voir les projets</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal">
+          <div class="hero-photo-wrap">
+            <img src="./img/detourage.png" alt="Manon Mikolajczak" class="hero-photo">
+          </div>
+          <div class="panel-card">
+            <p class="panel-kicker">Ce qui m'anime</p>
+            <p class="panel-line">Imaginer</p>
+            <p class="panel-line">Organiser</p>
+            <p class="panel-line">Faire vivre</p>
+          </div>
+          <div class="panel-meta">
+            <span>ISEFAC Lille</span>
+            <span>Alternance dès septembre 2026</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="skills-physics" aria-label="Compétences">
+        <canvas id="skills-canvas"></canvas>
+      </section>
+
+      <section class="section reveal" id="profil">
+        <div class="section-head">
+          <p class="section-label">Repères</p>
+          <h2>Des projets concrets, des résultats visibles, une énergie de terrain.</h2>
+          <p>
+            Une pratique de l'événementiel à la fois créative, opérationnelle
+            et très humaine.
+          </p>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <p class="metric-value">~190</p>
+            <p class="metric-label">participants sur Cartes sur tables</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value">~50</p>
+            <p class="metric-label">professionnels réunis sur l'événement</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value">Finale</p>
+            <p class="metric-label">nationale UNIMEV sélectionnée pour Le Carré Gourmand</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value">3 prix</p>
+            <p class="metric-label">public, meilleure vidéo et meilleur éclairage pour l'exposition photo</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projets">
+        <div class="section-head">
+          <p class="section-label">Projets phares</p>
+          <h2>Trois expériences qui racontent déjà une méthode.</h2>
+          <p>
+            Concevoir une intention, penser une ambiance, coordonner les moyens
+            et faire exister un moment mémorable.
+          </p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- Exposition Photo -->
+          <a href="./projet-exposition-photo.html" class="project-card feature-card">
+            <div class="project-img">
+              <img src="./img/exposition-photo/miroirzoe.jpg"
+                   alt="Exposition Photo — projet artistique ISEFAC"
+                   loading="lazy">
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Exposition photo</span>
+              <h3>Un projet autour de la notion d'écho, entre ombre, lumière et regard extérieur.</h3>
+              <p>Récompensée par le prix du public, de la meilleure vidéo et du meilleur éclairage.</p>
+              <span class="card-btn">Voir le projet →</span>
+            </div>
+          </a>
+
+          <!-- Le Carré Gourmand — photo réelle -->
+          <a href="./projet-le-carre-gourmand.html" class="project-card">
+            <div class="project-img">
+              <img src="./img/le-carre-gourmand/DSC00316.jpeg"
+                   alt="Le Carre Gourmand — festival culinaire" loading="lazy">
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Finale nationale UNIMEV</span>
+              <h3>Concevoir un festival culinaire immersif pensé comme un véritable parcours.</h3>
+              <p>Quatre univers thématiques · Finale nationale UNIMEV</p>
+              <span class="card-btn">Voir le projet →</span>
+            </div>
+          </a>
+
+          <!-- Giving Tuesday — photo réelle -->
+          <a href="./projet-giving-tuesday.html" class="project-card">
+            <div class="project-img">
+              <img src="./img/giving-tuesday/giving.jpeg"
+                   alt="Giving Tuesday — événement caritatif Pixar" loading="lazy">
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Giving Tuesday</span>
+              <h3>Un événement caritatif où scénographie, collectif et engagement avancent ensemble.</h3>
+              <p>3 jours · Thème Pixar · Partenariat La Sauvegarde du Nord</p>
+              <span class="card-btn">Voir le projet →</span>
+            </div>
+          </a>
+
+        </div>
+
+        <div style="text-align:center; margin-top: var(--space-12);">
+          <a href="./projets.html" class="btn btn-primary">Voir tous les projets →</a>
+        </div>
+      </section>
+
+      <section class="section split-section reveal">
+        <div class="section-head">
+          <p class="section-label">Approche</p>
+          <h2>Une manière de travailler où l'intention, le collectif et l'exécution avancent ensemble.</h2>
+        </div>
+
+        <div class="split-grid">
+          <div class="statement-card">
+            <p class="statement-line">Imaginer fort.</p>
+            <p class="statement-line accent">Organiser juste.</p>
+            <p class="statement-line">Faire vivre réellement.</p>
+          </div>
+
+          <div class="copy-stack">
+            <p>
+              Ce qui traverse l'ensemble du portfolio, c'est une même envie :
+              créer des expériences où rien n'est laissé au hasard, tout en
+              gardant une place centrale pour l'emotion et le sens.
+            </p>
+            <p>
+              Les voyages nourrissent aussi ce regard. New York, Los Angeles,
+              Las Vegas, Athènes, Istanbul, Izmir et bien d'autres encore.
+              A chaque destination, une source d'inspiration, d'ouverture et
+              de créativité qui nourrit directement la vision des projets
+              et des expériences conçus.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Scénographie</span>
+              <span class="tag">Coordination</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Terrain</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="lab">
+        <div class="section-head">
+          <p class="section-label">Association étudiante — ISEFAC Lille</p>
+          <h2>Le LAB : là, où tout se construit.</h2>
+          <p>
+            Le LAB est le collectif étudiant de l'ISEFAC Lille. C'est à travers
+            cette association que j'ai organisé des événements concrets, collaboré
+            avec des professionnels et développé une vraie expérience de terrain.
+          </p>
+        </div>
+
+        <div class="lab-intro-card reveal">
+          <p>
+            Le LAB concoit et organise des événements à la fois caritatifs,
+            professionnels et federateurs. Chaque membre peut proposer, piloter
+            et contribuer a des projets reels, porteurs de sens et de valeurs.
+            C'est dans ce cadre que j'ai pu mener des projets de A à Z, avec
+            de vraies responsabilites et de vraies contraintes.
+          </p>
+        </div>
+
+        <div class="section-sublabel">Projets menes via le LAB</div>
+
+        <div class="service-grid">
+          <article class="info-card">
+            <p class="info-index">01</p>
+            <h3>Cartes sur tables</h3>
+            <p>
+              Chargée de projet sur la 6e édition : planning, roadbook,
+              inscriptions, coordination des bénévoles, relation intervenants,
+              supports InDesign, script video et gestion le jour J.
+              Theme casino, ~190 participants, ~50 professionnels.
+            </p>
+            <a href="./projet-cartes-sur-tables.html" class="card-btn">Voir le projet →</a>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">02</p>
+            <h3>Parrainight</h3>
+            <p>
+              Événement d'intégration autour d'un système de parrainage —
+              edition 2026, theme Dia de los Muertos. Mise en place du
+              parrainage, recherche du lieu, restauration et coordination
+              globale de la soirée.
+            </p>
+            <a href="./projet-parrainight.html" class="card-btn">Voir le projet →</a>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">03</p>
+            <h3>Ambassadrice You & Me — LVMH</h3>
+            <p>
+              Sélectionnée via le LAB pour participer a la tournee nationale
+              You & Me de LVMH. Rôle d'accompagnement du public dans l'acces
+              aux offres d'emploi, guidage sur les outils et orientation
+              des visiteurs aux profils varies.
+            </p>
+            <a href="./projet-lvmh.html" class="card-btn">Voir le projet →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="experiences">
+        <div class="section-head">
+          <p class="section-label">Expériences complémentaires</p>
+          <h2>Des environnements différents, une même logique d'implication.</h2>
+          <p>
+            Service, relationnel, communication, mécénat ou production de
+            contenus : un parcours qui montre une vraie capacité d'adaptation.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="info-card">
+            <p class="info-index">04</p>
+            <h3>Pizza Family — Employé polyvalent</h3>
+            <p>
+              Une expérience fondatrice. Production, service, encaissement,
+              gestion des stocks, ouverture et fermeture. Travail presque
+              tous les soirs pendant deux années d'études, avec des journées
+              régulièrement terminées vers 22h. Interventions sur des événements :
+              production en volume, logistique et coordination sur plusieurs jours.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">06</p>
+            <h3>Spotlight Festival — 15 ans</h3>
+            <p>
+              Conception d'une vidéo de promotion pour les 15 ans du Spotlight
+              Festival, événement majeur du stand-up dans la métropole lilloise.
+              Travail du storytelling, du rythme et des codes digitaux. Challenge
+              remporté, avec accès aux loges et coulisses du Théâtre Sébastopol.
+            </p>
+            <a href="./projet-spotlight-festival.html" class="card-btn">Voir le projet →</a>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">07</p>
+            <h3>Stage — La Sauvegarde du Nord</h3>
+            <p>
+              Service mécénat : création des supports de communication, gestion
+              des invitations, coordination avec les prestataires et contribution
+              à la préparation de La Nuit de la Sauvegarde. Une expérience qui
+              m'a appris l'importance de rester alignée avec ses valeurs, même
+              dans un contexte professionnel.
+            </p>
+            <a href="./projet-sauvegarde-du-nord.html" class="card-btn">Voir le projet →</a>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">08</p>
+            <h3>Village de l'Authi — Chargée d'accueil & coordination</h3>
+            <p>
+              Chargée d'accueil et coordination d'activités (2023-2026) :
+              gestion des activites et relation client au quotidien.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">09</p>
+            <h3>Magazine & pop-up store</h3>
+            <p>
+              Conception d'un magazine de A a Z : identité, stratégie, production
+              éditoriale et digitale. Positionnement associatif, caritatif et
+              humanitaire. Pop-up store sans budget et quiz solidaire ou chaque
+              bonne réponse reversait 1 € à une association.
+            </p>
+            <a href="./projet-magazine-popup.html" class="card-btn">Voir le projet →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="benevola">
+        <div class="section-head">
+          <p class="section-label">Bénévolat</p>
+          <h2>S'impliquer sur le terrain, toujours.</h2>
+          <p>
+            Accueil, logistique, coordination : une presence constante sur des
+            événements variés, pour apprendre et contribuer.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="info-card">
+            <p class="info-index">—</p>
+            <h3>Lilliarious Festival</h3>
+            <p>
+              Accueil du public et controle des acces. Accompagnement des
+              participants sur site.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">—</p>
+            <h3>Lille Street Food Festival</h3>
+            <p>
+              Accueil et orientation des visiteurs. Soutien logistique aux
+              équipes terrain.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">—</p>
+            <h3>Salon de l'Étudiant</h3>
+            <p>
+              Accueil et information des visiteurs. Explication du fonctionnement
+              de l'école.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">—</p>
+            <h3>Journee portes ouvertes</h3>
+            <p>
+              Accueil des futurs étudiants et familles. Presentation des espaces.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-index">—</p>
+            <h3>Rendez-vous du luxe</h3>
+            <p>
+              Assistance a l'organisation sur site. Accueil des invités et
+              gestion des entrees.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="formations">
+        <div class="section-head">
+          <p class="section-label">Formation & Compétences</p>
+          <h2>Une base solide, des outils concrets.</h2>
+        </div>
+
+        <div class="split-grid">
+          <div class="copy-stack">
+            <div class="info-card">
+              <p class="info-index">Formation</p>
+              <h3>Bachelor Événementiel — ISEFAC Lille</h3>
+              <p>2024 – 2027</p>
+            </div>
+            <div class="info-card" style="margin-top: 0;">
+              <p class="info-index">Formation</p>
+              <h3>Lycée Louis Blaringhem — Béthune</h3>
+              <p>2021 – 2024</p>
+            </div>
+          </div>
+
+          <div class="statement-card">
+            <p class="panel-kicker">Soft skills</p>
+            <div class="tag-row" style="margin-top: 1rem;">
+              <span class="tag">Communication efficace</span>
+              <span class="tag">Gestion du stress</span>
+              <span class="tag">Gestion de projet</span>
+              <span class="tag">Relation client</span>
+              <span class="tag">Organisation</span>
+              <span class="tag">Adaptabilité</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section reveal" id="contact">
+        <div class="section-head">
+          <p class="section-label">Contact</p>
+          <h2>Disponible pour une alternance à partir de septembre 2026.</h2>
+          <p>
+            Profil tourné vers la coordination, la scénographie, la
+            communication et la gestion terrain, avec un vrai goût pour les
+            projets qui rassemblent.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-copy">
+            <p class="contact-big">Manon Mikolajczak</p>
+            <p>
+              Profil tourné vers la coordination, la scénographie, la
+              communication et la gestion terrain, avec un vrai goût pour les
+              projets qui rassemblent.
+            </p>
+            <div class="contact-pills">
+              <span class="pill">✉️ manon.mikolajczak@isefac.fr</span>
+              <span class="pill">📞 06.99.65.97.48</span>
+              <span class="pill">🚗 Permis B, véhiculée</span>
+              <span class="pill">📍 Métropole lilloise</span>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-ghost-light" href="#top">Revenir en haut</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Portfolio Manon Mikolajczak</p>
+      <p>Version web adaptée depuis le PDF</p>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
