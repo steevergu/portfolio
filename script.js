@@ -356,6 +356,10 @@ function animateGlow() {
     '.parrainight-photo img',
     '.projet-single-img img',
     '.popup-gallery img',
+    '.gallery-solo img',
+    '.gallery-2col img',
+    '.gallery-3col img',
+    '.gallery-featured img',
   ].join(', ');
 
   const photos = document.querySelectorAll(SELECTORS);
