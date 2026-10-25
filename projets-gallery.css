@@ -89,18 +89,17 @@
   color: var(--neutral-0);
 }
 
-/* ── Masonry grid ───────────────────────────────── */
+/* ── Grille (3 par ligne) ─────────────────────────── */
 .gallery-masonry {
-  columns: 3;
-  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
   margin-bottom: var(--space-20);
 }
 
 /* ── Chaque carte ───────────────────────────────── */
 .gallery-card {
   display: block;
-  break-inside: avoid;
-  margin-bottom: 16px;
   border-radius: 18px;
   overflow: hidden;
   position: relative;
@@ -277,12 +276,12 @@
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
-  .gallery-masonry { columns: 2; }
+  .gallery-masonry { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery-hero { flex-direction: column; align-items: flex-start; }
   .gallery-hero-count { flex-direction: row; gap: var(--space-3); opacity: 0.4; }
   .gallery-count-num { font-size: 3rem; }
 }
 
 @media (max-width: 520px) {
-  .gallery-masonry { columns: 1; }
+  .gallery-masonry { grid-template-columns: minmax(0, 1fr); }
 }
