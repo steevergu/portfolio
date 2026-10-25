@@ -58,7 +58,8 @@
 
 .expo-gallery-main img {
   width: 100%;
-  height: auto;
+  height: 460px;
+  object-fit: cover;
   border-radius: var(--radius-lg);
   display: block;
 }
@@ -71,7 +72,8 @@
 
 .expo-gallery-grid img {
   width: 100%;
-  height: auto;
+  height: 280px;
+  object-fit: cover;
   border-radius: var(--radius-md);
   display: block;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -82,10 +84,15 @@
   opacity: 0.9;
 }
 
+@media (max-width: 900px) {
+  .expo-gallery-grid { grid-template-columns: repeat(3, 1fr); }
+  .expo-gallery-grid img { height: 220px; }
+}
+
 @media (max-width: 640px) {
   .expo-gallery-main img { height: 260px; }
   .expo-gallery-grid { grid-template-columns: repeat(2, 1fr); }
-  .expo-gallery-grid img { height: 140px; }
+  .expo-gallery-grid img { height: 160px; }
 }
 
 /* ── Media Parrainight ──────────────────────── */
